@@ -1,0 +1,6 @@
+{
+  "name": "fikr-platform", "version": "1.0.0", "private": true, "type":"module",
+  "scripts": {"dev":"next dev --hostname 0.0.0.0", "build":"next build", "start":"next start --hostname 0.0.0.0", "lint":"eslint .", "test":"vitest run", "check":"tsc --noEmit && eslint . && vitest run", "seed:demo":"node --experimental-strip-types scripts/seed.ts"},
+  "dependencies": {"next":"^16.0.0","react":"^19.2.0","react-dom":"^19.2.0","lucide-react":"^0.468.0","mathjs":"^14.0.1","zod":"^3.24.1","@anthropic-ai/sdk":"^0.68.0","argon2":"^0.44.0","@fontsource/manrope":"^5.2.0","@fontsource/dm-sans":"^5.2.0"},
+  "devDependencies": {"typescript":"^5.9.0","@types/node":"^24.0.0","@types/react":"^19.0.0","@types/react-dom":"^19.0.0","vitest":"^3.2.0","eslint":"^9.0.0","eslint-config-next":"^16.0.0","@playwright/test":"^1.56.0"}
+}
